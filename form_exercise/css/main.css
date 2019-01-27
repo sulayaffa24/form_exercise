@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+   body {
+     background: #344a72;
+     font-family: 'Raleway', sans-serif;
+   } /* Brad added color and line-height to #fff and 1.8 respectively */
+     
+   a {
+    text-decoration: none;
+   }
+
+   #container {
+     display: block;
+     max-width: 500px;
+     margin: auto;
+     padding: 40px;
+   } /* Brad did not have the display property and max-width was set to 400px */
+
+   .form-wrap {
+     width: 340px;
+     background: #fff;
+     padding: 20px;
+     margin: 20px auto;;
+   } /* Here is where Brad added the color property to #333 and padding to 15px 25px */ 
+
+   .form-wrap h1,
+   .form-wrap p {
+     text-align: center;
+     margin-bottom: 15px;
+   } /* Only used the text-align property */
+
+   .form-wrap .form-group {
+     margin: auto;
+   } /* Brad used margin-top 15px */
+
+   .form-wrap .form-group label {
+     display: block;
+     margin-bottom: 5px;
+   } /* Brad used the color property and set it to #666*/
+
+   .form-wrap .form-group input {
+     display: block;
+     margin-bottom: 15px;
+     padding: 5px;
+     width: 100%;
+   } /* Brad used the width, border, and the border radius property and set them to 100%, #ddd 1px solid, 5px respectively */
+
+   .form-wrap button {
+     display: block;
+     width: 100%;
+     background: #49c1a2;
+     color: #fff;
+     border: 1px solid;
+     padding: 5px;
+     margin-bottom: 15px;
+   } /* Brad used 10px for padding margin-top 20px, and also added the cursor property to pointer */
+
+   .form-wrap button:hover {
+     background: #37a08e;
+   }
+
+   .form-wrap .bottom-text {
+     font-size: 12px;
+   }
+
+   footer {
+    text-align: center;
+    color: #fff;
+   }
+
+   footer a {
+     color: #49c1a2;
+   }
